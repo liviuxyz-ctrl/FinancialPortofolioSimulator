@@ -44,6 +44,31 @@ example_portfolios = [
     # Additional portfolios can be added here
 ]
 ```
+## Example Image
+
+Here's an example of the portfolio growth chart after 10 years of investment. The chart shows the performance of the "Portfolio 1 House" portfolio with two investment strategies, "Strategy A" and "Strategy B."
+
+
+![Example Image](Photos/Example1.png)
+
+
+## Example Portfolios Over Time
+
+You can use the `plot_portfolios_over_time` function to compare the performance of your portfolios over different timeframes. Below is an example of how to use it with the `example_portfolios`:
+
+```python
+plot_portfolios_over_time(example_portfolios, [8, 10, 12], use_default_size=True)
+````
+
+The above code will generate a plot that compares the portfolios' performance over 8, 10, and 12 years. You can customize the timeframes to suit your analysis.
+
+![Example Portfolio Comparison Over Time](Photos/Example2.png)
+
+In the example image above, you can see how the portfolios "Portfolio 1 House" perform over different time horizons.
+
+Feel free to use this function to analyze and visualize your portfolios' growth and compare their performance over various periods.
+
+
 
 ## Functions
 
