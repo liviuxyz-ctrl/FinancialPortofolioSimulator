@@ -19,7 +19,7 @@ For comprehensive usage instructions and practical examples, please refer to the
 
 ## Table of Contents
 - [FinancialPortfolio Class](#financialportfolio-class)
-  - [Example Image](#example-image)
+  - [Example Portfolio Growth](#example-portfolio-growth)
   - [Example Portfolios Over Time](#example-portfolios-over-time)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -28,13 +28,11 @@ For comprehensive usage instructions and practical examples, please refer to the
   - [Contributing](#contributing)
   - [License](#license)
 
-## Example Image
+## Example Portfolio Growth
 
-Here's an example of the portfolio growth chart after 10 years of investment. The chart shows the performance of the "Portfolio 1 House" portfolio with two investment strategies, "Strategy A" and "Strategy B."
+Here's an example of the portfolio growth chart after 10 years of investment. The chart shows the performance of the "House Portfolio 1" portfolio with two investment strategies, "Strategy A" and "Strategy B."
 
-
-![Example Image](Photos/Example1.png)
-
+![Portfolio Growth Example](Photos/Example1.png)
 
 ## Example Portfolios Over Time
 
@@ -46,9 +44,9 @@ plot_portfolios_over_time(example_portfolios, [8, 10, 12], use_default_size=True
 
 The above code will generate a plot that compares the portfolios' performance over 8, 10, and 12 years. You can customize the timeframes to suit your analysis.
 
-![Example Portfolio Comparison Over Time](Photos/Example2.png)
+![Portfolio Comparison Over Time](Photos/Example2.png)
 
-In the example image above, you can see how the portfolios "Portfolio 1 House" perform over different time horizons.
+In the example image above, you can see how the portfolios "House Portfolio 1" perform over different time horizons.
 
 Feel free to use this function to analyze and visualize your portfolios' growth and compare their performance over various periods.
 
@@ -58,7 +56,7 @@ To use the FinancialPortfolio class, you need to have Python and the required li
 
 ```bash
 pip install numpy matplotlib
-````
+```
 
 ## Usage
 
@@ -72,12 +70,12 @@ Once imported, you can create instances of the `FinancialPortfolio` class and us
 
 ## Example Portfolios
 
-In the provided code example, we have an example portfolio named "Portfolio 1 House" with two investment strategies: "Strategy A" and "Strategy B." You can modify and expand these example portfolios to match your specific financial scenarios.
+In the provided code example, we have an example portfolio named "House Portfolio 1" with two investment strategies: "Strategy A" and "Strategy B." You can modify and expand these example portfolios to match your specific financial scenarios.
 
 ```python
 example_portfolios = [
     {
-        "name": "Portfolio 1 House",
+        "name": "House Portfolio 1",
         "strategies": [
             {"name": "Strategy A", "initial_funds": 0, "monthly_contribution": 800, "annual_rate": 6, "variance": 1, "is_taxable": True, "tax_rate": 10, "compounding_frequency": 6},
             {"name": "Strategy B", "initial_funds": 0, "monthly_contribution": 200, "annual_rate": 8, "variance": 1.5, "is_taxable": True, "tax_rate": 10, "compounding_frequency": 6}
@@ -105,9 +103,3 @@ If you have any suggestions or improvements for the FinancialPortfolio class or 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-
-You should save this content in a file named `README.md` in your project's repository root directory. Make sure to replace the placeholders with actual content specific to your project. Additionally, you may want to add more sections or information depending on your project's needs.
-
-```
