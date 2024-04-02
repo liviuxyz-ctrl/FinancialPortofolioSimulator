@@ -22,11 +22,13 @@ For comprehensive usage instructions and practical examples, please refer to the
   - [Example Portfolio Growth](#example-portfolio-growth)
   - [Example Portfolios Over Time](#example-portfolios-over-time)
   - [Installation](#installation)
+  - [Running with Docker in DataSpell or PyCharm](#running-with-docker-in-dataspell-or-pycharm)
   - [Usage](#usage)
   - [Example Portfolios](#example-portfolios)
   - [Functions](#functions)
   - [Contributing](#contributing)
   - [License](#license)
+
 
 ## Example Portfolio Growth
 
@@ -57,6 +59,34 @@ To use the FinancialPortfolio class, you need to have Python and the required li
 ```bash
 pip install numpy matplotlib
 ```
+
+## Running with Docker in DataSpell or PyCharm
+
+This project is designed to run inside a Docker container. Follow these steps to set up and run the Docker container using JetBrains DataSpell or PyCharm:
+
+1. **Ensure Docker Configuration**:
+   - Ensure that `Run Docker.run.xml` is properly configured for your Docker environment. It should define the Docker image, volumes, ports, and the command to be executed.
+
+2. **Open Your Project in DataSpell or PyCharm**:
+   - Open the project containing the FinancialPortfolio class in DataSpell or PyCharm.
+
+3. **Import Docker Configuration into DataSpell or PyCharm**:
+   - Navigate to "Run" > "Edit Configurations".
+   - Click the '+' button and select 'Import Configuration'.
+   - Choose the `Run Docker.run.xml` file. This step imports the Docker configuration into your IDE.
+
+4. **Run the Docker Container**:
+   - Select the imported Docker configuration from the run configurations list.
+   - Click the run button. This action builds (if necessary) and runs your Docker container.
+
+5. **Access the Python Environment Inside the Docker Container**:
+   - Once the Docker container is running, access its terminal through DataSpell or PyCharm.
+   - Within this terminal, you can execute scripts that utilize the FinancialPortfolio class.
+
+6. **Usage**:
+   - Use the FinancialPortfolio class within the Docker environment as outlined in the usage section of this documentation.
+
+Double-check that the paths and configuration names in your `Run Docker.run.xml` file are correctly set for your project’s needs.
 
 ## Usage
 
