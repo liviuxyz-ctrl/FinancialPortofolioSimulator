@@ -3,7 +3,7 @@
     <deployment type="docker-compose.yml">
       <settings>
         <option name="envFilePath" value="" />
-        <option name="removeOrphansOnComposeDown" value="false" />
+        <option name="removeOrphansOnComposeDown" value="True" />
         <option name="sourceFilePath" value="compose-dev.yaml" />
       </settings>
     </deployment>
