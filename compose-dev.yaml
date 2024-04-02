@@ -1,8 +1,11 @@
 version: '3.8'
 services:
   jupyter:
-    image: jupyter/base-notebook
+    build:
+      context: .  # Assuming the Dockerfile is in the same directory as your docker-compose file
+    image: custom_dev_img
     volumes:
-      - ./FinancialPortofolioSimulator:/home/liviuxyz
+      - ../FinancialPortofolioSimulator:/home/liviuxyz
+      - ../FinancialPortofolioSimulator:/home/jovyan/
     ports:
-      - "8888:8888"
+      - '8888:8888'

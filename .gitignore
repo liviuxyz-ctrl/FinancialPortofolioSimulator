@@ -1,1 +1,11 @@
 .idea/**
+/.cache/
+/.config/
+/.ipython/
+/.npm/
+/.local/
+/.jupyter/
+/.ipynb_checkpoints/
+/jovyan/
+/liviuxyz/
+/work/
