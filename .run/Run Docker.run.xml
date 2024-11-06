@@ -1,9 +1,8 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Run Docker" type="docker-deploy" factoryName="docker-compose.yml" server-name="docker-desktop-linux">
+  <configuration default="false" name="Run Docker" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
     <deployment type="docker-compose.yml">
       <settings>
         <option name="envFilePath" value="" />
-        <option name="removeOrphansOnComposeDown" value="True" />
         <option name="sourceFilePath" value="compose-dev.yaml" />
       </settings>
     </deployment>
