@@ -24,7 +24,6 @@ For comprehensive usage instructions and practical examples, please refer to the
   - [Installation](#installation)
   - [Running with Docker in DataSpell or PyCharm](#running-with-docker-in-dataspell-or-pycharm)
   - [Usage](#usage)
-  - [Ideal example of how project setup should look like](#ideal-example-of-how-project-setup-should-look-like)
   - [Example Portfolios](#example-portfolios)
   - [Functions](#functions)
   - [Contributing](#contributing)
@@ -90,8 +89,6 @@ This project is designed to run inside a Docker container. Follow these steps to
 Double-check that the paths and configuration names in your `Run Docker.run.xml` file are correctly set for your project’s needs.
 
 
-## Ideal example of how project setup should look like
-![{1323F8C1-E900-4112-A80A-B2ECE498FD6F}](https://github.com/user-attachments/assets/33114f68-73df-42e9-8b84-00be1b883c7c)
 
 
 ## Usage
